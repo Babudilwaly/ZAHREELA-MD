@@ -1,10 +1,11 @@
 const { tlang,cmd,getBuffer } = require('../lib')
 const Config = require('../config')
 const axios = require('axios')
-var nicetitle = '𝐒𝐀𝐋𝐌𝐀𝐍 𝐀𝐇𝐌𝐀𝐃'
-var nicebody = "|| ◁ㅤ❚❚ㅤ▷||ㅤ ↻"
-var niceurl = 'https://github.com/SamPandey001/Secktor-Md'
-const nicepic = 'https://wallpapercave.com/wp/wp9556281.jpg';
+var nicetitle = '𝚫𝚩𝐃𝐔𝐋𝐋𝚫𝚮 𝐉𝐔𝚻𝚻'
+var nicebody = "𝟬𝟬:𝟬𝟱━☉-━•𝟬𝟬:𝟭𝟱
+⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻"
+var niceurl = 'https://github.com/abdullahjuttofc/ZAHREELA-MD'
+const nicepic = 'https://i.imgur.com/t4SAO1K.jpeg';
 /*
 cmd({
     pattern: "mentionpreview",
