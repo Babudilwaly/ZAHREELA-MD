@@ -52,7 +52,7 @@ cmd({
 		 // if (count >= limit) break;
 		  let file_path = await fetchJson(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${result.stickers[count].file_id}`);
 		  let sticUrl = `https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/${file_path.result.file_path}`;
-		  if(isSticker) { let a = await getBuffer(sticUrl); await citel.reply(a, { packname: Config.packname, author: "Suhail-Md"  }, "sticker");} 
+		  if(isSticker) { let a = await getBuffer(sticUrl); await citel.reply(a, { packname: Config.packname, author: "ZAHREELA-MD"  }, "sticker");} 
 		  else { await Void.sendMessage(citel.chat,{image : {url : sticUrl } , caption : `*_Telegram Sticker At Index ${count+1} Downloaded_*`}) } 
 		  //count++;
 		}
@@ -226,7 +226,7 @@ cmd({
             if (!isUrl(text.split(" ")[0]) && !text.split(" ")[0].includes("mediafire.com")) return reply(`The link you provided is invalid`);
             const baby1 = await mediafire(text);
             if (baby1[0].size.split("MB")[0] >= 999) return reply("*File Over Limit* " + util.format(baby1));
-            const result4 = `*ᴵᶻᵁᴷᵁ Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
+            const result4 = `*ZAHREELA-MD Mᴇᴅɪᴀғɪʀᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ*
 *Nᴀᴍᴇ* : ${baby1[0].nama}
 *Sɪᴢᴇ* : ${baby1[0].size}
 *Mɪᴍᴇ* : ${baby1[0].mime}
@@ -402,14 +402,14 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-╭─┈ ⋞ 〈 Xʟɪᴄᴏɴ-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ 🦄〉 ⋟ ┈─╗
+╭─⋞〈ZAHREELA-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ〉⋟─╗
 ﹀
-⌲🎐 *Youtube Player* ✅
-⌲🐉 *Title:* ${anu.title}
-⌲🏮 *Duration:* ${anu.timestamp}
-⌲📥 *Viewers:* ${anu.views}
-⌲🎗 *Uploaded:* ${anu.ago}
-⌲🌊 *Author:* ${anu.author.name}
+⌲ *Youtube Player* ✅
+⌲ *Title:* ${anu.title}
+⌲ *Duration:* ${anu.timestamp}
+⌲ *Viewers:* ${anu.views}
+⌲ *Uploaded:* ${anu.ago}
+⌲ *Author:* ${anu.author.name}
 ︿
 ╰───━◦○◦━◦○◦━──────╝
 ⦿ *Url* : ${anu.url}
@@ -529,7 +529,7 @@ cmd({
                 let yts = require("secktor-pack")
                 let search = await yts(text);
                 let i = search.all[1] ;
-                let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio\n*Xʟɪᴄᴏɴ271-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ*" ;
+                let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio\n*ZAHREELA-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ*" ;
                 Void.sendMessage(citel.chat,{image :{url : i.thumbnail}, caption :  cap });
            
            
@@ -549,7 +549,7 @@ cmd({
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}ytmp3 ${i.url}`,
-                    description: `*Suhail-MD* / ${i.timestamp}`
+                    description: `*ZAHREELA-MD* / ${i.timestamp}`
                 })
             }
             const sections = [
@@ -585,7 +585,7 @@ cmd({
         },
         async(Void, citel, text) => {
             let yts = require("secktor-pack");
-            if (!text) return citel.reply(`Example : ${prefix}yts WhatsApp Bot by •xʟɪᴄᴏɴ271-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•`);
+            if (!text) return citel.reply(`Example : ${prefix}yts WhatsApp Bot by •ZAHREELA-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•`);
             let search = await yts(text);
             let textt = "*YouTube Search*\n Result From " + text + "\n   ─────────────────── \n";
             let no = 1;
@@ -805,9 +805,9 @@ cmd({
 
 
 
-// By @•xʟɪᴄᴏɴ271-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•
-// https://wa.me/8801853262586
-// https://www.youtube.com/@suhailtechinfo0
+// By @•ZAHREELA-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ•
+// https://wa.me/923277337485
+// https://www.youtube.com/@mhmodsofc
 
 
 
